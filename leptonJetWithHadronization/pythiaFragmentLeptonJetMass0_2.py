@@ -76,7 +76,7 @@ generator = cms.EDFilter("Pythia8GeneratorFilter",
                         '1000022:mayDecay = true',
                         '4900002:mayDecay = off',
                         '4900004:mayDecay = off',
-                        '4900022:m0 = 0.1',
+                        '4900022:m0 = 0.2',
                         '4900022:0:meMode = 0',
 
                         'HiddenValley:Ngauge = 1',
@@ -110,7 +110,7 @@ generator = cms.EDFilter("Pythia8GeneratorFilter",
 			'4900022:addChannel = 1 0 91 3 -3',
 			'4900022:addChannel = 1 0 91 4 -4',
 			'4900022:addChannel = 1 0 91 5 -5'
-
+			
             ),
         parameterSets = cms.vstring('pythia8CommonSettings',
             'pythia8CP5Settings',
