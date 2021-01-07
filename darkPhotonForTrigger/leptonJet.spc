@@ -817,7 +817,6 @@ DECAY   4900003   2.00000000E-15   # width value ...
 #            PDG       Width
 DECAY   4900022   0.80000000E-15   # width value set to arbitrary number
 #          BR         NDA      ID1       ID2
-     5.00000000E-01    2       11         -11      # BR( gammav -> ee )
-     5.00000000E-01    2       13         -13      # BR( gammav -> mumu )
+     1.00000000E+00    2       13         -13      # BR( gammav -> mumu )
 
 # add pion decay here p+/p-
