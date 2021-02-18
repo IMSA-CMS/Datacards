@@ -13,8 +13,6 @@ generator = cms.EDFilter("Pythia8GeneratorFilter",
         pythia8CP5SettingsBlock,
         pythia8PSweightsSettingsBlock,
         processParameters = cms.vstring(  
-            'Tune:pp 5',
-            'Tune:ee 3',
             'PartonLevel:MPI = on',
             'PartonLevel:ISR = on',
             'PartonLevel:FSR = on',
