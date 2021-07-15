@@ -22,7 +22,7 @@ generator = cms.EDFilter("Pythia8GeneratorFilter",
             'PartonLevel:FSR = on',
             'SUSY:all = on',
                         'SLHA:readFrom = 2',
-                        'SLHA:file = leptonJet.spc',
+                        'SLHA:file = leptonJetMuonsOnly.spc',
 
 
                         '4900001:m0 = 6.5',
