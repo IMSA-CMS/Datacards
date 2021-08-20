@@ -797,7 +797,7 @@ DECAY   1000035     2.58585079E+00   # neutralino4 decays
      2.54724352E-02    2    -1000016        16   # BR(~chi_40 -> ~nu_tau1* nu_tau )
 #
 #         PDG            Width
-DECAY   1000022     1.00000000E30  # ~chi_10 decays
+DECAY   1000022     1.00000000E15  # ~chi_10 decays
 #          BR         NDA      ID1       ID2
      2.50000000E-01    2     4900022        4900004   # BR( ~chi_10 -> gammav hvfermion )
      2.50000000E-01    2     4900001        4900004   # BR( ~chi_10 -> hvpseudoscalar hvfermion )
@@ -805,11 +805,11 @@ DECAY   1000022     1.00000000E30  # ~chi_10 decays
      2.50000000E-01    2     4900003        4900004   # BR( ~chi_10 -> hvheavyhiggs hvfermion )
 #
 #            PDG       Width
-DECAY   4900001   2.21729879e15   #
+DECAY   4900001   1.00000000e15   #
 #          BR         NDA      ID1       ID2
      1.00000000E+00    2     4900022     4900002       # BR( hvpseudoscalar -> gammav  hvlighthiggs )
 #
 #            PDG       Width
-DECAY   4900003   2.00000000E15   # width value ...
+DECAY   4900003   1.00000000E15   # width value ...
 #          BR         NDA      ID1       ID2
      1.00000000E+00    2     4900022     4900022      # BR( hvheavyhiggs -> gammav  gammav )
